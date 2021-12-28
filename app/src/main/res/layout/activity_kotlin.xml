@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".kotlin.KotlinVerifyActivity">
+
+    <com.mukesh.OtpView
+        android:id="@+id/edt_code_kotlin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:inputType="number"
+        android:itemBackground="@color/gray_100"
+        android:textColor="@android:color/black"
+        app:OtpCursorColor="@color/green_500"
+        app:OtpItemCount="4"
+        app:OtpItemWidth="64dp"
+        app:OtpItemHeight="64dp"
+        app:OtpItemSpacing="8dp"
+        app:OtpItemRadius="12dp"
+        app:OtpLineColor="@color/green_500"
+        app:OtpViewType="rectangle" />
+
+</LinearLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/background"
+    android:gravity="center"
+    android:layoutDirection="rtl"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".java.JavaRegisterActivity">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:padding="30dp"
+        app:srcCompat="@drawable/arash" />
+
+    <EditText
+        android:id="@+id/edt_login_java"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_edittext_auth"
+        android:drawableRight="@drawable/ic_baseline_phone_android_24"
+        android:drawablePadding="10dp"
+        android:drawableTint="@color/gray_500"
+        android:ellipsize="end"
+        android:gravity="right"
+        android:hint="موبایل : 09123456789"
+        android:imeOptions="actionSend"
+        android:inputType="phone"
+        android:lines="1"
+        android:maxLength="11"
+        android:padding="8dp"
+        android:textColor="@color/gray_900"
+        android:textColorHint="@color/gray_500" />
+
+        <EditText
+            android:layout_marginTop="10dp"
+        android:id="@+id/edt_name_java"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_edittext_auth"
+        android:drawableRight="@drawable/ic_baseline_phone_android_24"
+        android:drawablePadding="10dp"
+        android:drawableTint="@color/gray_500"
+        android:ellipsize="end"
+        android:gravity="right"
+        android:hint="نام و نام خانوادگی : آرش الطافی"
+        android:imeOptions="actionSend"
+        android:inputType="text"
+        android:lines="1"
+        android:maxLength="30"
+        android:padding="8dp"
+        android:textColor="@color/gray_900"
+        android:textColorHint="@color/gray_500" />
+
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_login_java"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_centerInParent="true"
+        android:text="ورود"
+        android:textSize="14sp" />
+
+</LinearLayout>
